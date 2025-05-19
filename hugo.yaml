@@ -132,6 +132,10 @@ outputs:
     - RSS
     - JSON
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 # https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
