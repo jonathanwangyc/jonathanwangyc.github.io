@@ -14,7 +14,7 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production # to enable google analytics, opengraph, etc.
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
@@ -47,7 +47,6 @@ params:
   mainSections:
     - blog
     - portfolio
-    - posts
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -63,28 +62,25 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
-    title: ExampleSite
+    enabled: true
+    title: Jonathan Wang
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/you-chun-wang/"
+    - name: email
+      url: "mailto:jonathanwang.jb@gmail.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/jonathanwangyc"
+    - name: cv           # ← built-in CV icon
+      url: "/files/Resume.pdf"
+      title: "Download CV"
 
   analytics:
     google:
@@ -100,12 +96,11 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/jonathanwangyc/hugo-papermod-website/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
+  # for search https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -113,18 +108,11 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    limit: 10
     # keys: ["title", "permalink", "summary", "content"]
+    
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 10
     - identifier: blog
       name: Blog
       url: /blog/
@@ -142,9 +130,9 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON # necessary for search
+    - JSON
 
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
