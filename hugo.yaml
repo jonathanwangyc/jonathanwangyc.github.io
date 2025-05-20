@@ -65,7 +65,7 @@ params:
   profileMode:
     enabled: true
     title: Jonathan Wang
-    subtitle: "I am You-Chun (Jonathan) Wang, a Master's student majoring in Computer Science at the University of Illinois Urbana-Champaign! I'm interested in full-stack development, machine learning, and finance. I'm open to new opportunities for internships and full-time jobs and am eager to take on new challenges."
+    subtitle: "Hi! I am You-Chun (Jonathan) Wang, a Master's student majoring in Computer Science at the University of Illinois Urbana-Champaign! I'm interested in full-stack development, machine learning, and finance. I'm open to new opportunities for internships and full-time jobs and am eager to take on new challenges."
     imageUrl: "/icons/profile.jpeg"
     imageWidth: 120
     imageHeight: 120
