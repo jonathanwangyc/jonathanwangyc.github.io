@@ -45,5 +45,5 @@
 {{- with resources.GetRemote $rawURL -}}
   {{ .Content | markdownify }}
 {{- else -}}
-  <p><em>README not found.</em></p>
+  <p><em>descriptions not included.</em></p>
 {{- end -}}

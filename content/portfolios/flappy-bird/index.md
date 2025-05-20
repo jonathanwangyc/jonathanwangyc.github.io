@@ -1,15 +1,15 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: '{{ .Date }}'
+title: 'Flappy Bird'
+date: '2025-05-20T13:16:31+08:00'
 # draft: true 
 weight: 10
 tags: [""]
 categories: ["project"]
-summary: ""
+summary: "A classic game"
 description: ""
 author: "Me"
-repo: ""
-demo: ""
+repo: "https://github.com/jonathanwangyc/flappy-bird"
+demo: "https://github.com/jonathanwangyc/flappy-bird"
 # searchHidden: true
 
 cover:
