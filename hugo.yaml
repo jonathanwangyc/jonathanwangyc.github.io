@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://jonathanwangyc.github.io/
 languageCode: en-us
 title: You-Chun (Jonathan) Wang
 pagination.pagerSize: 10
@@ -45,8 +45,8 @@ params:
     categories: categories
   
   mainSections:
-    - blog
-    - portfolio
+    - blogs
+    - portfolios
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -96,7 +96,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/jonathanwangyc/hugo-papermod-website/content"
+    URL: "https://github.com/jonathanwangyc/jonathanwangyc.github.io/edit/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -115,11 +115,11 @@ menu:
   main:
     - identifier: blog
       name: Blog
-      url: /blog/
+      url: /blogs/
       weight: 20
     - identifier: Portfolio
       name: Portfolio
-      url: /portfolio/
+      url: /portfolios/
       weight: 20
     - identifier: search
       name: Search
