@@ -78,7 +78,7 @@ params:
     - name: github
       url: "https://github.com/jonathanwangyc"
     - name: cv
-      url: "/files/resume-jonathan-wang-latest.pdf"
+      url: "/files/resume-jonathan-wang.pdf"
       title: "Download CV"
 
   analytics:

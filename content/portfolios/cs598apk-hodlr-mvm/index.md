@@ -1,5 +1,5 @@
 ---
-title: 'Efficient Off-Diagonal Low-Rank Martix Multiplication'
+title: 'Efficient Off-Diagonal Low-Rank Matrix Multiplication'
 date: '2025-05-20T13:14:39+08:00'
 # draft: true 
 weight: 6
